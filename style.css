@@ -72,9 +72,9 @@ h1 {
 }
 
 .button.red { background-color: #e63946; }
-.button.blue { background-color: #457b9d; }
+.button.blue { background-color: #e63946; }
 .button.black { background-color: #1d1d1d; }
-.button.purple { background-color: #9b5de5; }
+.button.purple { background-color: #5865F2; }
 
 .button:hover {
   transform: translateY(-4px);
