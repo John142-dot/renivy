@@ -95,3 +95,22 @@ h1 {
         transform: translateY(0);
     }
 }
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .button {
+        padding: 0.6rem 1rem;
+    }
+
+    #dropdownContent {
+        max-width: 100%;
+    }
+}
