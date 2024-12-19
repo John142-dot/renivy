@@ -1,0 +1,9 @@
+{
+    "title": "Beautiful & Consistent Icons",
+    "buttons": [
+        { "name": "View All Icons", "url": "#", "color": "red" },
+        { "name": "Get Started", "url": "#", "color": "blue" },
+        { "name": "GitHub", "url": "https://github.com", "color": "black" },
+        { "name": "Discord", "url": "https://discord.com", "color": "purple" }
+    ]
+}
