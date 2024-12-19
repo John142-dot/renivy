@@ -91,15 +91,15 @@ h1 {
 }
 
 .button.blue.active {
-  box-shadow: 0 0 20px 5px rgba(69, 123, 157, 0.5);
+  box-shadow: 0 0 20px 5px rgba(230, 57, 70, 0.5);
 }
 
 .button.black.active {
-  box-shadow: 0 0 20px 5px rgba(29, 29, 29, 0.5);
+  box-shadow: 0 0 20px 5px rgba(1, 1, 1, 0.5);
 }
 
 .button.purple.active {
-  box-shadow: 0 0 20px 5px rgba(155, 93, 229, 0.5);
+  box-shadow: 0 0 20px 5px rgba(88, 101, 242, 0.5);
 }
 
 /* Content styling */
