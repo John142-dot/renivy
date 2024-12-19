@@ -33,4 +33,19 @@ dropdownButton.addEventListener('click', () => {
     dropdownButton.setAttribute('aria-expanded', !isExpanded);
     dropdownContent.style.display = isExpanded ? 'none' : 'block';
     dropdownContent.setAttribute('aria-hidden', isExpanded);
+
+    // Select elements
+const imageContainer2 = document.querySelector('.image-container');
+const listContainer2 = document.querySelector('.list-container');
+const closeButton2 = document.querySelector('.close-button');
+
+// Toggle the list visibility on image click
+imageContainer2.addEventListener('click', () => {
+    listContainer2.classList.toggle('show');
+});
+
+// Close the list when the close button is clicked
+closeButton2.addEventListener('click', (e) => {
+    e.stopPropagation();  // Prevent the click from closing the list
+    listContainer2.classList.remove('show');
 });
