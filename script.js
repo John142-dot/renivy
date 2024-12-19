@@ -34,3 +34,11 @@ dropdownButton.addEventListener('click', () => {
     dropdownContent.style.display = isExpanded ? 'none' : 'block';
     dropdownContent.setAttribute('aria-hidden', isExpanded);
 });
+
+// Add transition to the gothic text color from red to white
+window.onload = () => {
+    const gothicText = document.getElementById('gothic-text');
+    setTimeout(() => {
+        gothicText.style.color = '#fff'; // Transition to white
+    }, 3000); // Change after 3 seconds
+};
