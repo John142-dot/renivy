@@ -20,9 +20,8 @@ const dropdownButton = document.getElementById('dropdownButton');
 const dropdownContent = document.getElementById('dropdownContent');
 
 dropdownButton.addEventListener('click', () => {
-    if (dropdownContent.style.display === 'block') {
-        dropdownContent.style.display = 'none';
-    } else {
-        dropdownContent.style.display = 'block';
-    }
+    const isExpanded = dropdownButton.getAttribute('aria-expanded') === 'true';
+    dropdownButton.setAttribute('aria-expanded', !isExpanded);
+    dropdownContent.style.display = isExpanded ? 'none' : 'block';
+    dropdownContent.setAttribute('aria-hidden', isExpanded);
 });
