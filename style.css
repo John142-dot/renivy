@@ -33,9 +33,9 @@ body {
   z-index: -1; /* Ensure it stays behind the content */
 }
 
-/* Gradient Text */
+/* Solid Split Text */
 .gradient-text {
-  background: linear-gradient(to right, rgb(255, 51, 51), white); /* Red to white gradient */
+  background: linear-gradient(to right, rgb(255, 51, 51) 50%, white 50%);
   -webkit-background-clip: text;
   color: transparent;
 }
