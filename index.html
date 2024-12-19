@@ -12,12 +12,14 @@
         <div id="button-container" class="buttons"></div>
     </header>
 
-    <div class="dropdown-container">
-        <button id="dropdownButton">More Info</button>
-        <div id="dropdownContent" class="dropdown-content">
-            <p>This is a dropdown with a smooth animation!</p>
+    <main>
+        <div class="dropdown-container">
+            <button id="dropdownButton" aria-expanded="false" aria-controls="dropdownContent">More Info</button>
+            <div id="dropdownContent" class="dropdown-content" aria-hidden="true">
+                <p>This is a dropdown with a smooth animation!</p>
+            </div>
         </div>
-    </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
