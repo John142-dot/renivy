@@ -117,7 +117,7 @@ h1 {
   position: absolute;
   width: 50px; /* Smaller size */
   height: 50px;
-  background-color: #3498db;
+  background-color: #e63946;
   border-radius: 10px; /* Small rounded corners */
   animation: moveLeft 20s cubic-bezier(0.42, 0, 0.58, 1) infinite; /* Slow down the animation */
   z-index: 0; /* Keeps the square behind the content */
